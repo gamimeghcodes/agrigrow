@@ -1,0 +1,9 @@
+Django==5.0.3
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+python-decouple==3.8
+requests
+
+scikit-learn
+pandas
+joblib

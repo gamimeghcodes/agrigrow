@@ -1,0 +1,17 @@
+# Environment variables (contains secrets - never commit)
+.env
+.env.local
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Django
+db.sqlite3
+*.log
+
+# Editor / OS
+.DS_Store

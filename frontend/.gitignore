@@ -1,0 +1,24 @@
+# Environment variables (contains secrets - never commit)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+.output/
+.wrangler/
+.tanstack/
+dist/
+build/
+
+# Editor / OS
+.DS_Store
+*.log
+
+# Backend artifacts (in case run from repo root)
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
